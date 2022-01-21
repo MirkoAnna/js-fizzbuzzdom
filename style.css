@@ -4,3 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(24, 58, 74);
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 300%;
+    color: white;
+}
