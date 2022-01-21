@@ -10,11 +10,28 @@ body {
 
 .wrapper {
     width: 100%;
+    padding: 0 15%;
 }
 
 .wrapper h1 {
+    margin: 4% 0;
     text-align: center;
-    margin: 20px;
     font-size: 300%;
     color: white;
+}
+
+#boxContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boxContainer .box {
+    width: 85px;
+    height: 85px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
