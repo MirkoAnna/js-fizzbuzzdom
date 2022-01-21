@@ -16,7 +16,7 @@ body {
 .wrapper h1 {
     margin: 4% 0;
     text-align: center;
-    font-size: 300%;
+    font-size: 450%;
     color: white;
 }
 
@@ -27,10 +27,43 @@ body {
 }
 
 #boxContainer .box {
-    width: 85px;
-    height: 85px;
-    margin: 10px;
-    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    font-size: 120%;
+    background-color: rgb(61, 136, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxContainer .boxVerde {
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    font-size: 120%;
+    background-color: rgb(97, 210, 164);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxContainer .boxGiallo {
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    font-size: 120%;
+    background-color: rgb(249, 210, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}#boxContainer .boxRosso {
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    font-size: 120%;
+    background-color: rgb(222, 84, 113);
     display: flex;
     align-items: center;
     justify-content: center;
